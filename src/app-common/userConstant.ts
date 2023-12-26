@@ -1,0 +1,9 @@
+export enum USER_STATUS {
+  ACTIVE = "ACTIVE",
+  LOCK = "LOCK",
+  INACTIVE = "INACTIVE",
+}
+export enum PROFILE_STATUS {
+  VERIFYING = "VERIFYING",
+  VERIFYED = "VERIFYED",
+}

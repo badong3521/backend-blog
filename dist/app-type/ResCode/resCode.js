@@ -1,0 +1,23 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var ResponseCodes;
+(function (ResponseCodes) {
+    ResponseCodes[ResponseCodes["Success"] = 200] = "Success";
+    ResponseCodes[ResponseCodes["BadRequest"] = 400] = "BadRequest";
+    ResponseCodes[ResponseCodes["NotFound"] = 404] = "NotFound";
+    ResponseCodes[ResponseCodes["ServerError"] = 500] = "ServerError";
+    ResponseCodes[ResponseCodes["TokenInvalid"] = 401] = "TokenInvalid";
+    ResponseCodes[ResponseCodes["Timeout"] = 408] = "Timeout";
+    ResponseCodes[ResponseCodes["Permission"] = 403] = "Permission";
+    ResponseCodes[ResponseCodes["InvalidUser"] = 102] = "InvalidUser";
+    ResponseCodes[ResponseCodes["UserLocked"] = 101] = "UserLocked";
+    ResponseCodes[ResponseCodes["UserNotActive"] = 999] = "UserNotActive";
+    ResponseCodes[ResponseCodes["UserExits"] = 402] = "UserExits";
+    ResponseCodes[ResponseCodes["DeviceExits"] = 405] = "DeviceExits";
+    ResponseCodes[ResponseCodes["Expires"] = 406] = "Expires";
+    ResponseCodes[ResponseCodes["Used"] = 407] = "Used";
+    ResponseCodes[ResponseCodes["UserProfileExits"] = 409] = "UserProfileExits";
+    ResponseCodes[ResponseCodes["EmailNotNull"] = 410] = "EmailNotNull";
+    ResponseCodes[ResponseCodes["DecryptFail"] = 411] = "DecryptFail";
+})(ResponseCodes || (ResponseCodes = {}));
+exports.default = ResponseCodes;
