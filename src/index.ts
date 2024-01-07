@@ -11,15 +11,15 @@ const app = express();
 //Connect to database
 ConnectDbMongoose();
 
-// Routes Config
-appRoutes(app);
-
 // BANNER
 Banner();
 
 //Middleware Global
 app.use(express.json());
 const server = middlewareGlobal(app);
+
+// Routes Config
+appRoutes(app);
 
 // Start server
 const port = process.env.PORT;

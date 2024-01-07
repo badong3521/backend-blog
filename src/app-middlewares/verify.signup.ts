@@ -74,6 +74,8 @@ const checkDuplicateEmail = async (
 ) => {
   try {
     //phone number
+    console.log("PHONE", req.body);
+
     const phoneNumber = req.body.phoneNumber;
     const convertPhoneNumber = convertCountryCodePhoneNumber(phoneNumber);
     const user_phoneNumber = await user.findOne({

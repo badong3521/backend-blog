@@ -75,6 +75,7 @@ const checkDuplicateUsernameOrEmail = (req, res, next) => __awaiter(void 0, void
 const checkDuplicateEmail = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         //phone number
+        console.log("PHONE", req.body);
         const phoneNumber = req.body.phoneNumber;
         const convertPhoneNumber = (0, String_helper_1.convertCountryCodePhoneNumber)(phoneNumber);
         const user_phoneNumber = yield user_1.default.findOne({

@@ -13,13 +13,13 @@ require("module-alias/register");
 const app = (0, express_1.default)();
 //Connect to database
 (0, app_mongoDbConfig_1.default)();
-// Routes Config
-(0, configRoute_1.default)(app);
 // BANNER
 (0, app_banner_1.default)();
 //Middleware Global
 app.use(express_1.default.json());
 const server = (0, app_middlewareGlobal_1.default)(app);
+// Routes Config
+(0, configRoute_1.default)(app);
 // Start server
 const port = process.env.PORT;
 const type_env = process.env.NODE_ENV;

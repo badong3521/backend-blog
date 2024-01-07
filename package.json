@@ -1,5 +1,5 @@
 {
-  "name": "onebox-staff-manegement-be",
+  "name": "Template-Nodejs",
   "version": "1.0.0",
   "description": "Onebox staff Manegement",
   "main": "lib/functions/src/index.js",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/badong3521/Onebox-Staff-Manegement-BE.git"
+    "url": "git+https://github.com/badong3521/Base-Nodejs.git"
   },
   "keywords": [
     "onebox"
@@ -24,9 +24,9 @@
   "author": "BaDong",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/badong3521/Onebox-Staff-Manegement-BE/issues"
+    "url": "https://github.com/badong3521/Base-Nodejs/issues"
   },
-  "homepage": "https://github.com/badong3521/Onebox-Staff-Manegement-BE#readme",
+  "homepage": "https://github.com/badong3521/Base-Nodejs#readme",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.59.7",
     "atob": "^2.1.2",
